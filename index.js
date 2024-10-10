@@ -26,4 +26,20 @@ const reverseZigZagString = (s) => {
 
 //console.log(reverseZigZagString("helloo"));
 //console.log(reverseZigZagString("Fellows"));
-//console.log(reverseZigZagString("Code Challenge"));
+//console.log(reverseZigZagString("bomb"));
+
+//this was the raffy method that always works
+// const reverseZigZagStringR = (s) => {
+//   let e = "";
+//   let isLower = true;
+//   for (i = s.length - 1; i >= 0; i--) {
+//     if (isLower) {
+//       e += s[i].toLowerCase();
+//       isLower = false;
+//     } else {
+//       e += s[i].toUpperCase();
+//       isLower = true;
+//     }
+//   }
+//   return e;
+// };
